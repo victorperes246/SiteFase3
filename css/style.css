@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 20px;
+    text-align: center;
+    background-image: url('img/pexels-jahoo-388415.jpg');
+    background-size: cover;
+}
+
+header {
+    background: #4CAF50;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+}
+
+nav ul li:not(:last-child)::after {
+    content: "|";
+    margin-left: 15px;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo p {
+    font-size: 20px;    
+    color: white;
+    margin-bottom: -25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: left;
+}
+.logo i {
+    height: 35px;
+    margin-bottom: -37px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: left;
+    color: white;
+}
+
+.cabecalho {
+    padding: 50px;
+    background: #e2e2e29d;
+    border-radius: 8px;
+}
+
+.cabecalho img {
+    width: 325px;
+    height: 325px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.cabecalho button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+
+.cabecalho-texto{
+    display: inline-block;
+    width: 25%;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cabecalho button:hover {
+    background: #50b455;
+}
+
+.content{
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+    background: #e8e8e888;
+    border-radius: 8px;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.content-text{
+    display: inline-block;
+    width: 70%;
+    height: auto;
+    text-align: left;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 15px;
+    background: #4CAF50;
+    color: white;
+}
+
