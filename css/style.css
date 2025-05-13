@@ -10,8 +10,6 @@ body {
     margin-right: 90px;
     padding: 20px;
     text-align: center;
-    background-image: url('img/pexels-jahoo-388415.jpg');
-    background-size: cover;
 }
 
 header {
@@ -47,14 +45,6 @@ nav a {
     margin-left: 25px;
     display: flex;
     justify-content: left;
-}
-.logo i {
-    height: 35px;
-    margin-bottom: -37px;
-    margin-right: 15px;
-    display: flex;
-    justify-content: left;
-    color: white;
 }
 
 .cabecalho {
@@ -123,10 +113,67 @@ nav a {
     padding: 10px;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 15px;
-    background: #4CAF50;
-    color: white;
+.contato-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+.contato-info, .contato-form {
+    flex: 1 1 400px;
+    margin: 20px;
+}
+
+.contato-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contato-info li {
+    margin-bottom: 10px;
+}
+
+.redes-sociais a {
+    display: flex;
+    font-size: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+.contato-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contato-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.contato-form input, .contato-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.contato-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contato-form button:hover {
+    background-color: #50b455;
+}
