@@ -138,6 +138,11 @@ nav a {
     margin-bottom: 10px;
 }
 
+iframe {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border-radius: 2%;
+}
+
 .redes-sociais a {
     display: flex;
     font-size: 25px;
